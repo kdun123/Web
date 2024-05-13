@@ -1,0 +1,19 @@
+.login{
+    color: black;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    background-color: antiquewhite;
+    width: 2000px;
+    height: 600px;
+}
+.login>.form{
+    font-weight: bold;
+    padding: 10px;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}

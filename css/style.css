@@ -1,0 +1,159 @@
+body{
+    margin: 30px;
+    font-family: Roboto, sans-serif;
+}
+.grid-container{
+    background: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 1200px 50px 50px 50px ;
+}
+.grid-container > div{
+    text-align: center;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: small;
+}
+.grid-container > div:nth-child(1){
+    text-align: center;
+    align-self: center;
+}
+.grid-container > div:nth-child(2){
+    text-align: center;
+    align-self: center;
+}
+.grid-container > div:nth-child(3){
+    text-align: center;
+    align-self: center;
+}
+.grid-container > div:nth-child(4){
+    padding: 20px;
+}
+.grid-container > div:nth-child(5){
+    text-align: center;
+    align-self: center;
+}
+.grid-container > div:nth-child(6){
+    text-align: center;
+    align-self: center;
+}
+.grid-container > div:nth-child(7){
+    text-align: center;
+    align-self: center;
+}
+.grid-container > div >a{
+    text-decoration: none;
+    color: black;
+}
+.grid-container > div>a:hover{
+    text-align: center;
+    align-self: center;
+    color: orange;
+}
+.grid-container2{
+    background: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+}
+.grid-container2 > div>a>img{
+    width: 1510px;
+}
+.grid-container2 > div:nth-child(2){
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: smaller;
+    color: orange;
+}
+.grid-container2 > div:nth-child(3){
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.grid-container3{
+    background: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+}
+.grid-container3>div{
+    text-align: center;
+    padding: 0px;
+}
+.grid-container3>div:nth-child(1){
+    grid-template-columns: span 2;
+}
+.grid-container3>div:nth-child(1):hover{
+    background-color: antiquewhite;
+}
+.grid-container3>div:nth-child(2){
+    align-self: center;
+    text-align: center;
+}
+.grid-container3>div:nth-child(4){
+    align-self: center;
+    text-align: center;
+}
+.grid-container3>div:nth-child(3):hover{
+    background-color: antiquewhite;
+}
+.grid-container3>div:nth-child(6){
+    align-self: center;
+    text-align: center;
+}
+.grid-container3>div:nth-child(5):hover{
+    background-color: antiquewhite;
+}
+.text{
+    color: orange;
+    font-family: Roboto, sans-serif;
+    font-size: smaller;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.text:hover{
+    font-size: larger;
+}
+.text2{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.text2:hover{
+    color: blue;
+}
+.banner2{
+    margin-top: 100px;
+    padding-left: 150px;
+}
+hr{
+    margin-top: 100px;
+    width: 1470px;
+}
+.grid-container4{
+    background: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1200px 300px;
+}
+.grid-container4>div{
+    padding-top: 40px;
+}
+button{
+    background-color: rgb(36, 33, 33);
+    color: white;
+    font-family: Roboto, sans-serif;
+    height: 30px;
+}
+input{
+    height: 20px;
+}
